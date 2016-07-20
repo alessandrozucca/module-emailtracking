@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+  ~ Email Tracking Module (https://www.alessandrozucca.co.uk/)
+  ~
+  ~  Copyright (c) 2016 Alessandro Zucca (https://www.alessandrozucca.co.uk/)
+  ~  See LICENSE.txt for license details.
+  ~
+  ~  Author: Alessandro Zucca <alessandro.zucca@gmail.com>
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Aiki86_EmailTracking::email_list"
+             title="Email Tracking"
+             module="Aiki86_EmailTracking"
+             sortOrder="70"
+             parent="Magento_Backend::marketing_communications"
+             action="adminhtml/emailtracking"
+             resource="Aiki86_EmailTracking::email_tracking"
+             dependsOnModule="Aiki86_EmailTracking"/>
+    </menu>
+</config>

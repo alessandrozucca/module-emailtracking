@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+  ~ Email Tracking Module (https://www.alessandrozucca.co.uk/)
+  ~
+  ~  Copyright (c) 2016 Alessandro Zucca (https://www.alessandrozucca.co.uk/)
+  ~  See LICENSE.txt for license details.
+  ~
+  ~  Author: Alessandro Zucca <alessandro.zucca@gmail.com>
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Mail\Transport">
+        <plugin name="email_tracking_transport_plugin" type="Aiki86\EmailTracking\Plugin\TransportPlugin"/>
+    </type>
+</config>
